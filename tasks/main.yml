@@ -1,0 +1,18 @@
+---
+# tasks file for subversion
+- name: install subversion
+  package:
+    name: "{{ subversion_packages }}"
+    state: present
+  register: subversion_install_subversion
+  until: subversion_install_subversion is succeeded
+  retries: 3
+
+- name: create requested repositories
+  command: svnadmin create {{ subversion_path }}/{{ item.name }}
+  args:
+    creates: "{{ subversion_path }}/{{ item.name }}"
+  with_items:
+    - "{{ subversion_repositories }}"
+  when:
+    - subversion_repositories is defined
