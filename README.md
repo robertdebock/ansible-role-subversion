@@ -6,6 +6,9 @@ subversion
 
 Install subversion and create repositories on your system.
 
+<img src="https://img.shields.io/ansible/role/d/42039"/>
+<img src="https://img.shields.io/ansible/quality/42039"/>
+
 Example Playbook
 ----------------
 
@@ -61,6 +64,14 @@ The following roles can be installed to ensure all requirements are met, using `
 
 ```
 
+This role uses the following modules:
+```yaml
+---
+- command
+- package
+- service
+```
+
 Context
 -------
 
@@ -80,7 +91,7 @@ This role has been tested against the following distributions and Ansible versio
 |alpine-edge*|yes|yes|yes*|
 |alpine-latest|yes|yes|yes*|
 |archlinux|yes|yes|yes*|
-|centos-6|yes|yes|yes*|
+|centos-7|yes|yes|yes*|
 |centos-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
@@ -92,6 +103,9 @@ This role has been tested against the following distributions and Ansible versio
 |ubuntu-rolling|yes|yes|yes*|
 
 A single star means the build may fail, it's marked as an experimental build.
+
+
+
 
 Testing
 -------
