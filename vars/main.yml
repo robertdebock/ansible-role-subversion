@@ -1,7 +1,4 @@
 ---
 # vars file for subversion
-_subversion_packages:
-  default:
-    - subversion
-
-subversion_packages: "{{ _subversion_packages[ansible_distribution ~ '-' ~ ansible_distribution_major_version] | default(_subversion_packages[ansible_distribution] | default(_subversion_packages['default'])) }}"
+subversion_packages:
+  - subversion
