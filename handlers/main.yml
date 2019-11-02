@@ -1,8 +1,0 @@
----
-# handlers file for subversion
-- name: restart subversion
-  service:
-    name: "{{ subversion_service }}"
-    state: restarted
-  when:
-    - ansible_virtualization_type != "docker"
