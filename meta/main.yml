@@ -39,6 +39,5 @@ galaxy_info:
     - subversion
     - archlinux
     - centos
-    - rhel
 
 dependencies: []
