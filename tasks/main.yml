@@ -12,7 +12,6 @@
   command: svnadmin create {{ subversion_path }}/{{ item.name }}
   args:
     creates: "{{ subversion_path }}/{{ item.name }}"
-  with_items:
-    - "{{ subversion_repositories }}"
+  loop: "{{ subversion_repositories }}"
   when:
     - subversion_repositories is defined
