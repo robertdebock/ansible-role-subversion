@@ -2,9 +2,9 @@
 
 Install subversion and create repositories on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-subversion.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-subversion)|[![github](https://github.com/robertdebock/ansible-role-subversion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-subversion/actions)|[![quality](https://img.shields.io/ansible/quality/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![downloads](https://img.shields.io/ansible/role/d/42039)](https://galaxy.ansible.com/robertdebock/subversion)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-subversion.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-subversion)|[![github](https://github.com/robertdebock/ansible-role-subversion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-subversion/actions)|[![quality](https://img.shields.io/ansible/quality/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![downloads](https://img.shields.io/ansible/role/d/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-subversion.svg)](https://github.com/robertdebock/ansible-role-subversion/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
