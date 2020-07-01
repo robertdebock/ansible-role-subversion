@@ -1,0 +1,6 @@
+---
+- name: test if subversion_path is set correctly
+  assert:
+    that:
+      - subversion_path is defined
+      - subversion_path | length > 0

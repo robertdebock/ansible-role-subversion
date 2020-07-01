@@ -1,5 +1,8 @@
 ---
 # tasks file for subversion
+- name: include assert.yml
+  include_tasks: assert.yml
+
 - name: install subversion
   package:
     name: "{{ subversion_packages }}"
