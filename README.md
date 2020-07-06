@@ -55,6 +55,7 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for subversion
+
 subversion_path: /tmp
 ```
 

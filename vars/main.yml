@@ -1,4 +1,5 @@
 ---
 # vars file for subversion
+
 subversion_packages:
   - subversion
