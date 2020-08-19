@@ -4,3 +4,4 @@
     that:
       - subversion_path is defined
       - subversion_path | length > 0
+    quiet: yes
