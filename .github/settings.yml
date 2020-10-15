@@ -5,3 +5,4 @@
 repository:
   description: Install subversion and create repositories on your system.
   homepage: https://robertdebock.nl/
+  topics: subversion, ansible, molecule, tox, playbook, hacktoberfest
