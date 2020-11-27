@@ -4,4 +4,5 @@
   assert:
     that:
       - subversion_path is defined
+      - subversion_path is string
     quiet: yes
