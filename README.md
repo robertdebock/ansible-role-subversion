@@ -2,9 +2,9 @@
 
 Install subversion and create repositories on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-subversion.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-subversion)|[![github](https://github.com/robertdebock/ansible-role-subversion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-subversion/actions)|[![quality](https://img.shields.io/ansible/quality/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![downloads](https://img.shields.io/ansible/role/d/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-subversion.svg)](https://github.com/robertdebock/ansible-role-subversion/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-subversion.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-subversion)|[![github](https://github.com/robertdebock/ansible-role-subversion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-subversion/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-subversion/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-subversion)|[![quality](https://img.shields.io/ansible/quality/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![downloads](https://img.shields.io/ansible/role/d/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-subversion.svg)](https://github.com/robertdebock/ansible-role-subversion/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -48,10 +48,11 @@ subversion_path: /tmp
 
 ## [Requirements](#requirements)
 
-- Access to a repository containing packages, likely on the internet.
-- A recent version of Ansible. (Tests run on the current, previous and next release of Ansible.)
+- pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-subversion/blob/master/requirements.txt).
 
 ## [Status of requirements](#status-of-requirements)
+
+The following roles are used to prepare a system. You may choose to prepare your system in another way, I have tested these roles as well.
 
 | Requirement | Travis | GitHub |
 |-------------|--------|--------|
