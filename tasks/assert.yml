@@ -5,4 +5,5 @@
     that:
       - subversion_path is defined
       - subversion_path is string
+      - subversion_path is not none
     quiet: yes
