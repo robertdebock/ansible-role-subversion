@@ -2,9 +2,9 @@
 
 Install subversion and create repositories on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-subversion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-subversion/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-subversion/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-subversion)|[![quality](https://img.shields.io/ansible/quality/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![downloads](https://img.shields.io/ansible/role/d/42039)](https://galaxy.ansible.com/robertdebock/subversion)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-subversion.svg)](https://github.com/robertdebock/ansible-role-subversion/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-subversion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-subversion/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-subversion/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-subversion)|[![downloads](https://img.shields.io/ansible/role/d/24596)](https://galaxy.ansible.com/robertdebock/subversion)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-subversion.svg)](https://github.com/robertdebock/ansible-role-subversion/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -88,7 +88,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-subversion/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-subversion/issues).
 
 ## [License](#license)
 
