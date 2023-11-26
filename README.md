@@ -1,4 +1,4 @@
-# Ansible role [subversion](#subversion)
+# [Ansible role subversion](#subversion)
 
 Install subversion and create repositories on your system.
 
