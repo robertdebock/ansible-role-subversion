@@ -18,7 +18,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-    - role: robertdebock.subversion
+    - role: ansible-role-subversion
       subversion_repositories:
         - name: my_svn_repository
 ```
